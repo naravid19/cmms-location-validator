@@ -14,8 +14,8 @@ logger = logging.getLogger(__name__)
 class Config:
     """Configuration constants for the application."""
     SHEET_NAME = "LTK-H"
-    FILE_INPUT = r"C:\Users\narav\Desktop\Egat\other\Template MxLoader LOCATION_LTK-H.xlsm"
-    DATABASE_CODE = r"C:\Users\narav\Desktop\CE code\Python\Learn\Mypython\Pandas\KKS\Database_Code.xlsx"
+    FILE_INPUT = r"C:\Users\Template MxLoader LOCATION_LTK-H.xlsm"
+    DATABASE_CODE = r"C:\Users\Database_Code.xlsx"
     
     # Column definitions
     COLS_MAIN = "A:N"
