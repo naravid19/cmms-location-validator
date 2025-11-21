@@ -151,7 +151,17 @@ class App(ctk.CTk):
         return formatter.format(record)
 
     def open_github(self):
-        webbrowser.open(GITHUB_URL)
+        logging.info(f"Opening GitHub: {GITHUB_URL}")
+        try:
+            # os.startfile is more reliable on Windows
+            os.startfile(GITHUB_URL)
+        except Exception as e:
+            logging.error(f"Failed to open browser: {e}")
+            # Fallback to webbrowser if os.startfile fails (e.g. non-Windows)
+            try:
+                webbrowser.open_new(GITHUB_URL)
+            except Exception as ex:
+                logging.error(f"Webbrowser fallback failed: {ex}")
 
     def load_settings(self):
         if os.path.exists(SETTINGS_FILE):
