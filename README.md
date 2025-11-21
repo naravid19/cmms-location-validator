@@ -19,7 +19,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/naravid19/cmms-location-validator">
-    <img src="logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Location Validator</h3>
@@ -211,8 +211,8 @@ Project Link: [https://github.com/naravid19/cmms-location-validator](https://git
 [issues-shield]: https://img.shields.io/github/issues/naravid19/cmms-location-validator.svg?style=for-the-badge
 [issues-url]: https://github.com/naravid19/cmms-location-validator/issues
 [license-shield]: https://img.shields.io/github/license/naravid19/cmms-location-validator.svg?style=for-the-badge
-[license-url]: https://github.com/naravid19/cmms-location-validator/blob/master/LICENSE.txt
-[product-screenshot]: screenshot.png
+[license-url]: https://github.com/naravid19/cmms-location-validator/blob/main/LICENSE
+[product-screenshot]: images/screenshot.png
 [Python.org]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://www.python.org/
 [Pandas.pydata.org]: https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white
